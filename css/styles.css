@@ -1,4 +1,21 @@
+:root {
+  --mail-font: Roboto, sans-serif;
+  --srcondary-font: ;
+}
+
 body {
-  font-family: "Roboto", "Oleo Script", "Raleway", sans-serif;
+  font-family: var(--mail-font);
   color: #e5e5e5;
+}
+
+.menu-link {
+  font-family: ;
+  font-weight: ;
+  line-hight: ;
+  letter-spacing: ;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: ;
 }
