@@ -17,6 +17,10 @@
   list-style: none;
 }
 
+.link.current {
+  color: var(--accent-color);
+}
+
 body {
   font-family: var(--main-font);
    color:var(--main-text-color);
