@@ -1,21 +1,177 @@
 :root {
-  --mail-font: Roboto, sans-serif;
-  --srcondary-font: ;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.address {
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
 }
 
 body {
-  font-family: var(--mail-font);
-  color: #e5e5e5;
+  font-family: var(--main-font);
+color: #212121;
 }
 
-.menu-link {
-  font-family: ;
-  font-weight: ;
-  line-hight: ;
-  letter-spacing: ;
+/*           header           */
+
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: ;
+
+
+.logo-part {
+  color: #000000;
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #2196f3;
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+/*           END header           */
+
+/*             hero             */
+.hero {
+  background: #2f303a;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*         END    hero             */
+
+
+/*             advantages             */
+
+
+.title-none {
+display:none;
+}
+
+.title {
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+}
+
+.title-item-el {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.title-item-cont {
+font-weight: normal;
+font-size: 14px;i
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*            EMD advantages             */
+
+
+/*             team             */
+.team-member {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-item-position {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*           END  team             */
+
+/*             footer             */
+
+.address-item {
+font-weight: normal;
+font-size: 14px;
+line-height: 1,71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-city {
+  color: #FFFFFF;
+}
+
+.footer {
+  background: #2F303A;
+}
+.footer-logo {
+ font-family: var(--secondary-font);
+font-size: 26px;
+font-weight: 700;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+}
+.logo-part-2 {
+ color: #FFFFFF;
 }
