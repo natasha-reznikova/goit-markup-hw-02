@@ -2,7 +2,14 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --main-text-color: #212121;
-  --accent-color: #2196f3;
+  --accent-color:#2196f3;
+  --first-text-color: #FFFFFF;
+  --second-text-color: #757575;
+  --team-buttons-color: #F5F4FA;  
+  --footer-color:  #2F303A;
+  --logo-color: #000000;
+  --hero-color: #2f303a;
+  --main-btn-color: #188CE8;
 }
 
 .link {
@@ -24,14 +31,14 @@
 body {
   font-family: var(--main-font);
    color:var(--main-text-color);
-   background-color: #fff;
+   background-color: var(--first-text-color);
 }
 
 /*           header           */
 
 .logo {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -40,7 +47,7 @@ body {
 
 
 .logo-part {
-  color: #000000;
+  color: var(--logo-color);
 }
 
 .navigation-link {
@@ -61,7 +68,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--second-text-color);
 }
 
 .contact-link:hover,
@@ -73,7 +80,7 @@ body {
 
 /*             hero             */
 .hero {
-  background: #2f303a;
+  background: var(--hero-color);
 }
 
 .main-title {
@@ -82,15 +89,15 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--first-text-color);
 }
 
 .main-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--first-text-color);
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -99,8 +106,8 @@ body {
 
 .main-btn:hover,
 .main-btn:focus {
-  background: #188CE8;
-    cursor: pointer;
+  background: var(--main-btn-color);
+  cursor: pointer;
 } 
 
 /*         END    hero             */
@@ -108,13 +115,12 @@ body {
 
 /*             advantages             */
 
-
 .title-none {
 display:none;
 }
 
 .title {
-font-weight: bold;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
@@ -122,7 +128,7 @@ text-align: center;
 }
 
 .title-item-el {
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
 line-height: 1.14
 letter-spacing: 0.03em;
@@ -134,7 +140,7 @@ color: var(--main-text-color);
 font-size: 14px;i
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-text-color);
 }
 
 /*            EMD advantages             */
@@ -153,7 +159,11 @@ color: var(--main-text-color);
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-text-color);
+}
+
+.team {
+background: var(--team-buttons-color);
 }
 
 .our-team {
@@ -171,11 +181,11 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
 .address-city {
-  color: #FFFFFF;
+  color: var(--first-text-color);
 }
 
 .footer {
-  background: #2F303A;
+  background: var(--footer-color);
 }
 .footer-logo {
  font-family: var(--secondary-font);
@@ -187,7 +197,7 @@ text-align: left;
 color: var(--accent-color);
 }
 .logo-part-2 {
- color: #FFFFFF;
+ color: var(--first-text-color);
 }
 
 /*         END    footer             */
@@ -196,7 +206,7 @@ color: var(--accent-color);
 
 
 .buttons-item {
-background: #F5F4FA;
+background: var(--team-buttons-color);
 border-radius: 4px;
 border: 0px; 
 cursor: pointer;
@@ -213,12 +223,12 @@ color: var(--main-text-color);
 .buttons-item:hover,
 .buttons-item:focus {
   background-color: var(--accent-color);
-  color: #FFFFFF;
+  color: var(--first-text-color);
 }
 
 
 .images-text {
-font-weight: bold;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -229,7 +239,7 @@ color: var(--main-text-color);
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-text-color);
 }
 
 .images {columns: 3;}
